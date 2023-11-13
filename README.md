@@ -101,7 +101,7 @@ See [antiSMASH](https://docs.antismash.secondarymetabolites.org/install/) for in
 ```
 
 
-## Comparing the results of multi-genome analysis:
+## Optiona: For comparing the results of multi-genome analysis:
 
 The BiG-SCAPE algorithm is used to compare the results of multi-genome analysis. 
 All clustered BGCs from antiSMASH results are analyzed to determine BGC similarity. 
