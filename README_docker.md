@@ -6,7 +6,7 @@ The aims of FunARTS are to (i) automate the process of target-directed (also cal
 
 FunARTS can be installed locally, or you can use the free public webserver located at https://funarts.ziemertlab.com
 
-See https://github.com/ziemertlab/funarts for a guide on installing the main analaysis pipeline independantly.
+See https://github.com/ziemertlab/funarts for a guide on installing the main analysis pipeline independently.
 
 See https://github.com/ziemertlab/funartswebapp for a guide on installing the webserver independently.
 
