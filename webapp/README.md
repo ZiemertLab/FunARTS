@@ -53,9 +53,9 @@ it is necessery for the [conda](https://docs.conda.io/en/latest/index.html) pack
     conda activate funartswebapp
 ```
 - Edit desired folders in configs (config/funartsapp_default.conf and config/uwsgi.conf)
-  (See [Confugiration](https://github.com/ziemertlab/funarts#Configuration_of_FunARTS_Web_Server) for more):
+  (See [Confugiration](https://github.com/ZiemertLab/FunARTS/tree/master/webapp#configuration-of-funarts-web-server) for more):
 - Run server (from funartswebapp folder)
-  (See [Usage](https://github.com/ziemertlab/funarts#Usage_of_FunARTS_Web_Server) for more):
+  (See [Usage](https://github.com/ZiemertLab/FunARTS/tree/master/webapp#usage-of-funarts-web-server) for more):
 ```bash
     uwsgi --ini config/uwsgi.conf
 ```
@@ -78,9 +78,9 @@ it is necessery for the [conda](https://docs.conda.io/en/latest/index.html) pack
     pip install -r requirements.txt
 ```
 - Edit desired folders in configs (config/funartsapp_default.conf and config/uwsgi.conf)
-  (See [Confugiration](https://github.com/ziemertlab/funarts#Configuration_of_FunARTS_Web_Server) for more):
+  (See [Confugiration](https://github.com/ZiemertLab/FunARTS/tree/master/webapp#configuration-of-funarts-web-server) for more):
 - Run server (from funartswebapp folder)
-  (See [Usage](https://github.com/ziemertlab/funarts#Usage_of_FunARTS_Web_Server) for more):
+  (See [Usage](https://github.com/ZiemertLab/FunARTS/tree/master/webapp#usage-of-funarts-web-server) for more):
 ```bash
     uwsgi --ini config/uwsgi.conf
 ```
