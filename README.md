@@ -62,7 +62,7 @@ it is necessery for the [conda](https://docs.conda.io/en/latest/index.html) pack
 ```bash
     conda env create -f environment.yml
 ```
-- Activate funarts environment and run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS/blob/master/README.md#usage) for more):
+- Activate funarts environment and run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS/tree/master#usage) for more):
 ```bash
     conda activate funarts
 ```
@@ -95,7 +95,7 @@ See [antiSMASH](https://docs.antismash.secondarymetabolites.org/install/) for in
     apt-get install -y hmmer2 hmmer diamond-aligner fasttree prodigal ncbi-blast+ muscle
     pip install -r requirements.txt
 ```
-- Run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS#usage) for more):
+- Run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS/tree/master#usage) for more):
 ```bash
     python funartspipeline.py [-h] [input] [refdir] [-optional_arguments]
 ```
