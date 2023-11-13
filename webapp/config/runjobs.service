@@ -1,0 +1,19 @@
+[Unit]
+Description=FunArtsDaemon #%I
+After=funartswebapp.service
+
+[Service]
+User=www-data
+Group=www-data
+RuntimeDirectory=funartsdaemon
+RuntimeDirectoryMode=0750
+# Replace 'funartsWD' with the actual working directory and Anaconda/Miniconda environment path
+WorkingDirectory=funartsWD
+#If Anaconda/Miniconda is used, please add environment path like that: "~PATH/anaconda3/envs/funarts/bin/
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+ExecStart=~PATH/python ~PATH/funarts/runjobs.py run -pid /run/funartsdaemon/pid
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+[Unit]
+Description=uWSGI instance for funartswebapp
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+RuntimeDirectory=funartswebapp
+RuntimeDirectoryMode=0750
+#If Anaconda/Miniconda is used, please add environment path like that: "~PATH/anaconda3/envs/funartswebapp/bin/
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+#Replace funartsWD with directory of app ex: /var/opt/funartswebapp/
+WorkingDirectory=funartsWD
+ExecStart=~PATH/uwsgi --ini config/uwsgi.conf
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target
