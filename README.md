@@ -62,7 +62,7 @@ it is necessery for the [conda](https://docs.conda.io/en/latest/index.html) pack
 ```bash
     conda env create -f environment.yml
 ```
-- Activate funarts environment and run FunARTS (See [Usage](https://github.com/zieemrtlab/funarts#usage) for more):
+- Activate funarts environment and run FunARTS (See [Usage](https://github.com/ziemertlab/funarts#usage) for more):
 ```bash
     conda activate funarts
 ```
