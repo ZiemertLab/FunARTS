@@ -95,7 +95,7 @@ See [antiSMASH](https://docs.antismash.secondarymetabolites.org/install/) for in
     apt-get install -y hmmer2 hmmer diamond-aligner fasttree prodigal ncbi-blast+ muscle
     pip install -r requirements.txt
 ```
-- Run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS/blob/master/README.md#usage) for more):
+- Run FunARTS (See [Usage](https://github.com/ZiemertLab/FunARTS#usage) for more):
 ```bash
     python funartspipeline.py [-h] [input] [refdir] [-optional_arguments]
 ```
