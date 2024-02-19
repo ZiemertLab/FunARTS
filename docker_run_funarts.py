@@ -108,7 +108,7 @@ def call_startquery(args):
 
 ## Docker Run FunARTS
     docker_run_cmd += " ".join(list(set(container_volume_list)))
-    docker_run_cmd += " funarts:latest "
+    docker_run_cmd += " ziemertlab/funarts:latest "
     docker_run_cmd += ",".join(input_paths) + " " + container_ref_arg + " "
     docker_run_cmd += " ".join(container_argument_list)
     print(docker_run_cmd)
